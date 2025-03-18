@@ -1,0 +1,113 @@
+body{
+  background-color: hsl(0, 0%, 10%);
+}
+
+.to-do-list{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+}
+
+.tasks{
+  color: white;
+  font-size: 1.8rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;  
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.add-button{
+  margin-left: 8px;
+  background-color: #2ecc71;
+}
+.add-button:hover{
+  background-color: #27ae60;
+}
+
+.delete-button{
+  background-color: #e74c3c;
+}
+.delete-button:hover{
+  background-color: #c0392b;
+}
+
+.move-button{
+  background-color: #3498db;
+}
+.move-button:hover{
+  background-color: #2980b9;
+}
+
+.done-button{
+  background-color: #f1c40f;
+}
+.done-button:hover{
+  background-color: #f39c12;
+}
+
+.recall-button{
+  background-color: #9b59b6;
+}
+.recall-button:hover{
+  background-color: #8e44ad;
+}
+
+input[type="text"]{
+  font-size: 1.7rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  width: 50%;
+  margin-top: 20px;
+}
+
+input[type="datetime-local"]{
+  font-size: 1.7rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+
+ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0,0%,97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  flex: 1;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
